@@ -1,6 +1,6 @@
 {
   "name": "css-modificator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module sorts rows in CSS file.",
   "main": "css-modificator.js",
   "scripts": {

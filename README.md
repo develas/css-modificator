@@ -2,7 +2,7 @@ css-modificator organizes your CSS-styles, ordering properties alphabetically.
 
 Usage: node css-modificator.js CSS_file
 
-Old ordering.
+Old ordering:
 .search{
   position: relative;
   border: 1px solid;
@@ -14,7 +14,8 @@ Old ordering.
   border-radius: 14px;
 }
 
-New ordering.
+
+New ordering:
 .search {
   border: 1px solid;
   border-radius: 14px;
@@ -25,4 +26,5 @@ New ordering.
   top: 1px;
   width: 230px;
 }
+
 

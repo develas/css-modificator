@@ -7,12 +7,10 @@ if (process.argv.length < 3) {
 }
 
 const fileName = process.argv[2];
-console.log(fileName);
 
 const readableStream  = new fs.ReadStream(fileName);
 
 var data = '';
-var result;
 
 readableStream 
     .on('data', (chunk) => {
