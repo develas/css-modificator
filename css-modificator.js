@@ -31,11 +31,15 @@ function parseCSS(data){
   try{
     var obj = css.parse(data);
   }catch(err){
-    console.log(err.message);
+    throw new Error(err);
   }
 
-  var sheet = obj.stylesheet;
-
+  try{
+    var sheet = obj.stylesheet;
+  }catch(err){
+    throw new Error(err);
+  }
+  
   sheet.rules.forEach(function(element, index, array){
     element.declarations.sort(compare);
   });
