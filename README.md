@@ -1,7 +1,8 @@
 #css-modificator
 
 **As you know the best practise is Alphabetize your Properties in CSS file.**  
-**css-modificator organizes your CSS-styles, ordering properties alphabetically.**
+**css-modificator organizes your CSS-styles, ordering properties alphabetically.**  
+To verify it you can use style.css file from repository
 
 Usage: `npm start CSS_file    `
 
