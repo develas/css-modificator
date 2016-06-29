@@ -1,9 +1,11 @@
-As you know the best practise is Alphabetize your Properties in CSS file.  
-css-modificator organizes your CSS-styles, ordering properties alphabetically.
+#css-modificator
 
-Usage: npm start CSS_file    
+**As you know the best practise is Alphabetize your Properties in CSS file.**  
+**css-modificator organizes your CSS-styles, ordering properties alphabetically.**
 
-Old ordering:  
+Usage: `npm start CSS_file    `
+
+**Old ordering:**  
 .search{  
   position: relative;  
   border: 1px solid;  
@@ -16,7 +18,7 @@ Old ordering:
 }    
 
 
-New ordering:  
+**New ordering:**  
 .search {  
   border: 1px solid;  
   border-radius: 14px;  
