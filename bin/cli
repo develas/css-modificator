@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+const cssModificator = require('../css-modificator').readCSSfile,
+    colors = require('colors');
+    argv = process.argv;
+
+const program = require('commander');
+ 
+program
+  .usage('npm start CSS_file')
+  .command('npm')
+  .parse(process.argv);
+
+
+if (!process.argv.slice(2).length) {
+  program.outputHelp(make_red);
+}else cssModificator(argv[2]);
+ 
+function make_red(txt) {
+  return colors.red(txt); //display the help text in red on the console 
+}

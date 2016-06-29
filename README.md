@@ -1,6 +1,7 @@
+As you know the best practise is Alphabetize your Properties in CSS file.
 css-modificator organizes your CSS-styles, ordering properties alphabetically.
 
-Usage: node css-modificator.js CSS_file
+Usage: npm start CSS_file
 
 Old ordering:
 .search{
