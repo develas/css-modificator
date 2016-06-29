@@ -6,6 +6,7 @@
 Usage: `npm start CSS_file    `
 
 **Old ordering:**  
+```
 .search{  
   position: relative;  
   border: 1px solid;  
@@ -16,9 +17,10 @@ Usage: `npm start CSS_file    `
   top: 1px;  
   border-radius: 14px;  
 }    
-
+```
 
 **New ordering:**  
+```
 .search {  
   border: 1px solid;  
   border-radius: 14px;  
@@ -29,5 +31,5 @@ Usage: `npm start CSS_file    `
   top: 1px;  
   width: 230px;  
 }
-
+```
 
